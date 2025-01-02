@@ -94,6 +94,8 @@ mod tests {
                 .map(|(start, end)| source.as_str(start, end)),
             Ok("world")
         );
+
+        use crate::Parser;
     }
 
     #[test]
